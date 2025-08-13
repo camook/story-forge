@@ -1,0 +1,26 @@
+{
+  "name": "story-forge",
+  "main": "worker/index.ts",
+  "compatibility_date": "2025-01-01",
+  "assets": { "directory": "dist" },
+  "env": {
+    "staging": {
+      "vars": {},
+      "kv_namespaces": [
+        { "binding": "KV", "id": "TODO-KV-ID-STAGING" }
+      ],
+      "d1_databases": [
+        { "binding": "DB", "database_id": "TODO-D1-ID-STAGING" }
+      ]
+    },
+    "prod": {
+      "vars": {},
+      "kv_namespaces": [
+        { "binding": "KV", "id": "TODO-KV-ID-PROD" }
+      ],
+      "d1_databases": [
+        { "binding": "DB", "database_id": "TODO-D1-ID-PROD" }
+      ]
+    }
+  }
+}
