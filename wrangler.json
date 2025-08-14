@@ -2,7 +2,21 @@
   "name": "story-forge",
   "main": "worker/index.ts",
   "compatibility_date": "2025-01-01",
-  "assets": { "directory": "dist", "html_handling": "always" },
+  "assets": { "directory": "dist", "html_handling": "auto-trailing-slash" },
+  "kv_namespaces": [
+    {
+      "binding": "KV",
+      "id": "ed05b1bedd00407597f23773771d8ec2",
+      "preview_id": "9b999d076fef4b768811edd0df3bf9b5"
+    }
+  ],
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "story-forge-db",
+      "database_id": "local-dev-db"
+    }
+  ],
   "env": {
     "staging": {
       "vars": {},
