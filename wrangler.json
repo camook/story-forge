@@ -2,7 +2,7 @@
   "name": "story-forge",
   "main": "worker/index.ts",
   "compatibility_date": "2025-01-01",
-  "assets": { "directory": "dist" },
+  "assets": { "directory": "dist", "html_handling": "always" },
   "env": {
     "staging": {
       "vars": {},
